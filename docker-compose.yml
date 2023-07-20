@@ -1,0 +1,8 @@
+version: "2.1"
+
+services:
+    msg:
+        build: ./msg
+        ports:
+            - "8005:80"
+            - "2005:22"
